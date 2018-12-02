@@ -19,6 +19,6 @@ chmod ug+x bin/*
 On Debian systems (and most other Linux distributions) mostly the www-data user executes the PHP files, just execute the following commands in your install directory.
 
 ```bash
-chown -R YOURUSER:YOURGROUP app/config bin composer.json pimcore var web/pimcore web/var
+chown -R www-data:www-data app/config bin composer.json pimcore var web/pimcore web/var
 chmod ug+x bin/*
 ```

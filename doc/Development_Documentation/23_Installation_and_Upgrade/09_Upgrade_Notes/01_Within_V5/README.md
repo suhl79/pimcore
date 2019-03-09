@@ -7,6 +7,7 @@
   if there are no variants that full fill the criteria (but parent objects would). 
 - [Ecommerce] FilterTypes now have `RequestStack` as constructor param. If you have custom filter types and no autowire 
   you might need to adapt your service definition. 
+- Introduction of custom report permissions. It is possible now to define which users should be able to see a report
 
 ## Version 5.6.4
 
